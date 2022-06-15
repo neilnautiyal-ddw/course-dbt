@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_greenery__orders
+    description: Information about orders
+
+  - name: stg_greenery__users
+    description: Information about users
+
+  - name: stg_greenery__addresses
+    description: Information about addresses
+
+  - name: stg_greenery__events
+    description: Information about events
+
+  - name: stg_greenery__products
+    description: Information about products
+
+  - name: stg_greenery__order_items
+    description: Information about items
+
+  - name: stg_greenery__promos
+    description: Information about promos
