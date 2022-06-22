@@ -3,6 +3,10 @@ version: 2
 models:
   - name: stg_greenery__orders
     description: Information about orders
+    columns:
+      - name: user_guid
+        tests:
+          - not_null
 
   - name: stg_greenery__users
     description: Information about users
